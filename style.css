@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "General Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#minicircle{
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.bounding{
+  width: fit-content;
+  overflow: hidden;
+  
+}
+
+.bounding .boundingelem{
+  transform: translateY(100%);
+}
+#main {
+  width: 100%;
+  height: auto;
+  background-color: rgba(158, 1, 197, 0.863);
+}
+
+#hero {
+  position: relative;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(158, 1, 197, 0.863);
+}
+#nav {
+  width: 100%;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#heading{
+    margin-top: 80px;
+    width: fix-content;
+}
+#heading h1{
+    margin-left: 45px;
+    opacity: 0.8;
+    line-height: 1;
+    font-family: "General Sans",sans-serif;
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+#heading #shift{
+    margin-left: 230px;
+}
+
+.blocktext{
+  /* background-color: #807979; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: right;
+}
+
+#smhd{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 70px;
+  padding-right: 30px;
+}
+#smhd h5{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 2vh;
+  margin-top: .3vw;
+}
+
+#herofooter{
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#herofooter a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#herofooter #iconset{
+  display: flex;
+  gap: 10px;
+}
+
+#herofooter .circle{
+  display: flex;
+  align-items: center;
+  width: 25px;
+  height:25px;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #888;
+}
+#second{
+  padding-right: 10vw;
+  padding-top: 180px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(160, 21, 230);
+  color: #fff;
+}
+
+.elem{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  border-top: 1px solid #807979 ;
+  
+}
+
+.elem h1{
+  text-transform: uppercase;
+  font-size: 3.8vw;
+  opacity: .7;
+}
+
+.elemlast{
+  border-bottom: 1px solid #807979;
+  
+}
+.elem img{
+  /* display: none; */
+  z-index: 999;
+  position: absolute;
+  height: 140%;
+}
+
+#about{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10vw 10vw;
+  padding-left: 30vw;
+  width: 100%;
+  background-color: rgb(160, 21, 230);
+  color: #fff;
+}
+
+#about img{
+  width:17vw;
+  height: fit-content;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#textabout {
+  width: 30rem;
+  align-items: center;
+  text-align: justify;
+  text-decoration: none;
+}
+
+#textabout h5{
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 8%;
+}
+
+#textabout p{
+  line-height: 1.7;
+  margin-bottom: 30px;
+
+}
+
+#textabout a{
+  border: 1px solid #fff;
+  padding: 12px 22px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+#subscribe{
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom  : 6vw;
+    background-color: rgb(160, 21, 230);
+}
+#subscribe h5{
+  text-transform: uppercase;
+  opacity: 9;
+}
+
+#subscribe h3{
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#footer{
+  color: #fff;
+  background-color:rgba(169, 65, 221, 0.904) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
+#footerleft{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+#footerright a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
